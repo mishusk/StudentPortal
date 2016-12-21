@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item android:title="View Routine">
+            <menu>
+                <item
+                    android:id="@+id/nav_main_activity"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Class Today" />
+                <item
+                    android:id="@+id/nav_show_notes"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Notes" />
+                <item
+                    android:id="@+id/nav_show_exams"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Exams" />
+                <item
+                    android:id="@+id/nav_group_chat"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Group Chat" />
+            </menu>
+        </item>
+        <item android:title="Configure Routine">
+            <menu>
+                <item
+                    android:id="@+id/nav_quick_notes"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Quick Notes" />
+                <item
+                    android:id="@+id/nav_shor_note"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Short Notes" />
+                <item
+                    android:id="@+id/nav_add_subject"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Configure Subject" />
+                <item
+                    android:id="@+id/nav_add_routine"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Configure Class Schedule" />
+                <item
+                    android:id="@+id/nav_exam_routine"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Exam Schedule" />
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Settings and Extra ">
+            <menu>
+                <item
+                    android:id="@+id/nav_configure_group_chat"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Configure Chat Room" />
+                <item
+                    android:id="@+id/nav_app_settings"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="App Setting" />
+                <item
+                    android:id="@+id/nav_calender"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Calender" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Sharing">
+            <menu>
+                <item
+                    android:id="@+id/nav_share_routine"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share Class Schedule" />
+                <item
+                    android:id="@+id/nav_share_exam"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share Exam Schedule" />
+                <item
+                    android:id="@+id/nav_share_app"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share Application" />
+            </menu>
+        </item>
+    </group>
+</menu>

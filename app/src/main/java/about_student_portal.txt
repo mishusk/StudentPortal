@@ -1,0 +1,5 @@
+What this app will do?
+
+Subject list: students have to make a list of subjects that they will enroll or taking in his/her
+    semester/year.
+Configure Routine: students have to enter subject_name, day_name, start_time, end_time, room_number,

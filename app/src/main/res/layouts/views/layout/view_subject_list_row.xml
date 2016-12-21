@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/test_shape_one"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!--android:background="@color/colorGray"-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="42sp"
+        android:layout_weight="4"
+        android:gravity="center|start">
+
+        <TextView
+            android:id="@+id/subNamTv_fragAdSub_LR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleLableColer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="42sp"
+        android:layout_weight="1"
+        android:gravity="center|end">
+
+        <ImageButton
+            android:contentDescription="@string/edit"
+            android:id="@+id/editBtn_addSub_listRow"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/edit_pancil"
+            android:layout_marginRight="10dp"/>
+
+        <ImageButton
+            android:contentDescription="@string/delete"
+            android:id="@+id/deleteBtn_addSub_listRow"
+            android:layout_width="28sp"
+            android:layout_height="30sp"
+            android:background="@drawable/delete" />
+    </LinearLayout>
+</LinearLayout>
